@@ -17,14 +17,9 @@ const clickButtonHandler = (button: VirtualKeyboardButtonInterface) => {
 </template>
 
 <style>
-html {
-  height: 100%;
-}
-
 body {
-  height: 100%;
   margin: 0;
-  padding: 3rem;
+  padding: 3rem 3rem 1rem;
 }
 
 textarea {
@@ -34,6 +29,6 @@ textarea {
 div {
   display: grid;
   grid-template-columns: 100%;
-  gap: 5rem;
+  gap: 4rem;
 }
 </style>
