@@ -1,4 +1,4 @@
-import { VirtualKeyboardButtonInterface } from "@teleskop150750/t-virtual-keyboard/dist/src/types/types";
+import { type VirtualKeyboardButtonInterface } from "@teleskop150750/t-virtual-keyboard/dist/src/types/types";
 
 export const ru: Record<string, VirtualKeyboardButtonInterface[]> = {
   ru: [
@@ -11,7 +11,7 @@ export const ru: Record<string, VirtualKeyboardButtonInterface[]> = {
       position: {
         row: 1,
         index: 1,
-    },
+      },
       type: "default",
     },
     {
