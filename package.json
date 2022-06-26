@@ -10,14 +10,14 @@
     "deploy": "vite build && gh-pages -d build"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@teleskop150750/t-virtual-keyboard": "^0.0.4-development",
+    "@teleskop150750/t-virtual-keyboard": "^0.0.6-development",
     "@vitejs/plugin-vue": "^2.3.3",
-    "typescript": "^4.5.4",
-    "vite": "^2.9.9",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.12",
     "vite-plugin-gh-pages": "^0.3.0",
-    "vue-tsc": "^0.34.7"
+    "vue-tsc": "^0.34.17"
   }
 }

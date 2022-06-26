@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { type VirtualKeyboardButtonInterface } from "@teleskop150750/t-virtual-keyboard/dist/src/types/types";
+import { VirtualKeyboardButtonInterface } from "@teleskop150750/t-virtual-keyboard/dist/src/types/types";
 
 const text = ref('');
 
